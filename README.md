@@ -4,6 +4,8 @@ A cross-platform desktop app that watches `.mermaid-visuals/` in the current dir
 
 Built with Tauri v2 (Rust) + React + TypeScript + Mermaid.
 
+![Screenshot](screenshot.png)
+
 ## Usage
 
 ```sh
