@@ -1,0 +1,36 @@
+.diagram-container {
+  flex: 1;
+  padding: 16px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.diagram-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.diagram-error {
+  flex: 1;
+  padding: 24px;
+  color: #c00;
+}
+
+.diagram-error pre {
+  background: #fff0f0;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 13px;
+  white-space: pre-wrap;
+}
+
+.diagram-loading {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888;
+}

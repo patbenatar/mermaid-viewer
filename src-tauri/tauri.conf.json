@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nicjohnson145/tauri-apps/tauri-v2/crates/tauri-schema-generator/schemas/config.schema.json",
+  "productName": "Mermaid Viewer",
+  "version": "0.1.0",
+  "identifier": "com.mermaid-viewer.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Mermaid Viewer",
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' asset: https://asset.localhost data:"
+    }
+  }
+}
